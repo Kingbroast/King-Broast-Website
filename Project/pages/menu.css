@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3,h1,h2,h4,h5{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+}
+/* Nav Bar  */
+
+.logo{
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    margin-right: 2rem;
+    padding: 3px;
+
+}
+.logo-text{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+.navBar{
+    background-color: rgb(14, 14, 47);
+}
+.ul-nav a{
+    font-size: 1.2rem;
+    color: whitesmoke !important;
+    margin-left: 1.5rem;
+}
+.logo-text:hover{
+    color: rgb(246, 226, 6) !important;
+}
+
+/* Nav Bar End */
+
+/* Main */
+h1{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    background-color: goldenrod;
+    border-radius: 3px;
+    box-shadow: 5px 5px 8px #888888;
+}
+.menuList>ul>li{
+    padding-bottom: 8px;
+    font-size: 1.2rem;
+}
+.menuList>h3{
+    color: white;
+    border-radius: 3px;
+    padding: 0 0 0 5px;
+    background-color: #fb3958;
+    box-shadow: 5px 5px 8px #888888;
+}
+/* Main End */
+
+/* Footer */
+li{
+    list-style: none;
+    
+}
+.footer{
+    border-top: 5px solid goldenrod;
+    border-bottom: 5px solid goldenrod;
+    background-color: rgb(21, 20, 20);
+}
+
+.footer_ul{
+    flex-direction: column;
+}
+.footer_ul a,h4{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+.follow h3{
+    color: rgb(255, 255, 255);
+}
+.comment h3{
+    color: rgb(255, 255, 255);
+}
+.footer_ul h3{
+    color: rgb(255, 255, 255);
+}
+.follow{
+    flex-direction: column;
+}
+.follow a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+i{
+    font-size: 2rem;
+    margin-right: 1.2rem;
+}
+.i1{
+    color: #3b5998;
+}
+.i2{
+    color: #fb3958;
+}
+textarea,input{
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    padding: 5px;
+    box-shadow: 1px 1px 8px whitesmoke;
+}
+.comment{
+    flex-direction: column;
+}
+.makeDetails{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(14, 14, 47);
+}
+.makeDetailsa{
+    color: rgb(214, 46, 46);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+/* Footer End */

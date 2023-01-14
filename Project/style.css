@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3,h1,h2,h4,h5{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+}
+/* Nav Bar  */
+
+.logo{
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    margin-right: 2rem;
+    padding: 3px;
+
+}
+.logo-text{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+.navBar{
+    background-color: rgb(14, 14, 47);
+}
+.ul-nav a{
+    font-size: 1.2rem;
+    color: whitesmoke !important;
+    margin-left: 1.5rem;
+}
+.logo-text:hover{
+    color: rgb(246, 226, 6) !important;
+}
+
+/* Nav Bar End */
+
+/* Slider */
+.slider{
+    border-top: 5px solid goldenrod;
+    border-bottom: 5px solid goldenrod;
+}
+.h_of_slider{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+.p_of_slider{
+    color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+
+}
+/* Slider End */
+
+
+/* Main Body */
+
+.boxsB{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.sh{
+    box-shadow: 5px 0px 8px #888888;
+}
+.boxsB:hover{
+    transform: scale(1.1);
+}
+.boxsB>img{
+    max-height: 200px;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid grey;
+    
+}
+.btnn{
+    font-size: 1.2rem;
+}
+.zin_text{
+    border: 1px solid grey;
+    border-radius: 0 0 8px 8px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: whitesmoke;
+    box-shadow: 5px 5px 8px #888888;
+    
+}
+.zin_text{
+    border: 1px solid grey;
+    border-radius: 0 0 8px 8px;
+}
+.bg-div{
+    background-image: url("images/bg-div.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+.blur{
+    background-color: rgba(0, 0, 0, 0.873);
+    min-height: 100vh;
+}
+.cards1{
+    background-image: url("images/card1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    max-width: 500px;
+}
+.cards_main{
+    justify-content: space-around;
+}
+.cards2{
+    background-image: url("images/card2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    max-width: 400px;
+}
+.cardsHeading{
+    font-size: 4rem;
+    color: whitesmoke;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.textAndImg{
+    width: 500px;
+    height: 700px;
+    background: url('images/table.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px #888888;
+}
+.customcss{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.quote{
+    color: whitesmoke;
+    font-size: 5rem;
+    font-family: 'Moon Dance', cursive;
+}
+.quote-text{
+    color: rgb(21, 20, 20);
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+        /* Location */
+.Location-logo{
+    color: #960A0A;
+    font-size: 5rem;
+    cursor: pointer;
+    transition: .1s ease-in-out ;
+}
+.Location-logo:hover{
+    color: rgb(20, 89, 117);
+}
+iframe{
+    width: 100%;
+}
+.Location-bg{
+    background-color: rgb(246, 241, 231);
+}
+
+        /* Location-End */
+
+/* Main Body End */
+
+
+
+/* Footer */
+li{
+    list-style: none;
+    
+}
+.footer{
+    border-top: 5px solid goldenrod;
+    border-bottom: 5px solid goldenrod;
+    background-color: rgb(21, 20, 20);
+}
+
+.footer_ul{
+    flex-direction: column;
+}
+.footer_ul a,h4{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+.follow h3{
+    color: rgb(255, 255, 255);
+}
+.comment h3{
+    color: rgb(255, 255, 255);
+}
+.footer_ul h3{
+    color: rgb(255, 255, 255);
+}
+.follow{
+    flex-direction: column;
+}
+.follow a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+.inp_boxs{
+
+}
+.inp_password{
+    min-width: 80px;
+}
+.inp_email{
+    min-width: 80px;
+    margin-left: 15px;
+}
+i{
+    font-size: 2rem;
+    margin-right: 1.2rem;
+}
+.i1{
+    color: #3b5998;
+}
+.i2{
+    color: #fb3958;
+}
+textarea,input{
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    padding: 5px;
+    box-shadow: 1px 1px 8px whitesmoke;
+}
+.comment{
+    flex-direction: column;
+}
+.makeDetails{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(14, 14, 47);
+}
+.makeDetailsa{
+    color: rgb(214, 46, 46);
+    font-size: 1.5rem;
+}
+/* Footer End */
+
+/* For Scroll Starts here */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color:white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(14, 14, 47);
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+}
+/* For Scroll Ends here */
+
+@media (min-width: 430px) and (max-width: 992px){
+    .cards2{
+        min-width: 500px;
+    }
+    .cards1{
+        min-width: 500px;
+    }
+}
+@media (max-width: 992px){
+    .cards2{
+        margin-bottom: 2rem;
+    }
+}
+
+/*@media (min-width: 430px) and (max-width: 576px){
+
+ }
+@media (min-width: 768px) and (max-width: 992px){
+    #beef_burger{
+        padding-bottom: 2rem;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
